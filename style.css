@@ -1,0 +1,78 @@
+/* Basic Layout */
+body {
+    margin: 0;
+    background-color: rgb(253, 235, 204);
+    text-align: center;
+    font-family:Georgia, Times, 'Times New Roman', serif
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 570px;
+}
+
+.extremes {
+    background-color: rgb(34, 33, 33);
+    color: rgb(253, 235, 204);
+}
+
+header, section {
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    /* Image circle styling */
+    border-radius: 50%;
+    /* Image circle styling */
+
+    /* Image border styling */
+    border-color: rgb(18, 201, 18);
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-right-width: 5px;
+    border-right-style: solid;
+    /* Image border styling */
+}
+/* Basic Layout */
+
+/* Styling */
+
+.line {
+    border-top: 1px solid rgb(102, 107, 102);
+    border-bottom: 1px solid rgb(102, 107, 102);
+    padding: 30px;
+}
+
+span {
+    display: block;
+    color: rgb(18, 201, 18);
+}
+
+button {
+    background-color: rgb(18, 201, 18);
+    border: 0px;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: rgb(76, 255, 5);
+}
+
+a {
+    color: rgb(18, 201, 18);
+}
+
+a:hover {
+    color: rgb(76, 255, 5)
+}
+
+/* Styling */
